@@ -1,0 +1,41 @@
+Source: dolphin-plugins
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.10.4), libkonq5-dev (>= 4:4.10.4)
+Standards-Version: 3.9.4
+Homepage: http://www.kde.org
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/dolphin-plugins
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/dolphin-plugins
+
+Package: kdesdk-dolphin-plugins
+Architecture: any
+Section: devel
+Depends: ${shlibs:Depends}, ${misc:Depends}, dolphin
+Replaces: dolphin (<< 4:4.5.0)
+Enhances: dolphin
+Description: dolphin VCS plugins
+ This package contains plugins that offer integration in Dolphin with the
+ following version control systems:
+ .
+  * Bzr
+  * Git
+  * Mercurial
+  * Subversion
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: kdesdk-dolphin-plugins-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: ${misc:Depends}, kde-runtime-dbg, kate-dbg
+Replaces: kdeutils-dbg (<< 4:4.6)
+Breaks: kdeutils-dbg (<< 4:4.6)
+Suggests: dolphin-plugins (= ${source:Version})
+Description: debugging symbols for the KDE Software Development Kit module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE Software Development Kit module.
+
