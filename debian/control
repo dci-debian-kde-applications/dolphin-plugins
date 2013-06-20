@@ -31,10 +31,9 @@ Package: kdesdk-dolphin-plugins-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, kde-runtime-dbg, kate-dbg
+Depends: ${misc:Depends}, kde-runtime-dbg, kate-dbg, kdesdk-dolphin-plugins (= ${binary:Version})
 Replaces: kdeutils-dbg (<< 4:4.6), kdesdk-dbg
 Breaks: kdeutils-dbg (<< 4:4.6), kdesdk-dbg
-Suggests: dolphin-plugins (= ${source:Version})
 Description: debugging symbols for the KDE Software Development Kit module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE Software Development Kit module.
