@@ -2,7 +2,5 @@ dolphin-plugins (4:4.10.80-0ubuntu1) saucy; urgency=low
 
   * New upstream release
   * Initial package, split from dolphin-plugins
-  * New upstream release
-  * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 02:40:41 +0100
