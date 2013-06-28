@@ -1,8 +1,8 @@
-dolphin-plugins (4:4.10.90-0ubuntu1) UNRELEASED; urgency=low
+dolphin-plugins (4:4.10.90-0ubuntu1) saucy; urgency=low
 
   * New upstream bet release
 
- -- Michał Zając <quintasan@kubuntu.org>  Thu, 27 Jun 2013 02:26:09 +0200
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 17:57:29 +0100
 
 dolphin-plugins (4:4.10.80-0ubuntu1) saucy; urgency=low
 
