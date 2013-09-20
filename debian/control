@@ -1,0 +1,34 @@
+Source: dolphin-plugins
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <kiagiadakis.george@gmail.com>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.10.2),
+ libkonq5-dev
+Standards-Version: 3.9.4
+Homepage: http://www.kde.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/dolphin-plugins.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/dolphin-plugins.git
+
+Package: kdesdk-dolphin-plugins
+Architecture: any
+Section: devel
+Depends: ${shlibs:Depends}, ${misc:Depends}, dolphin
+Replaces: dolphin (<< 4:4.5.0)
+Enhances: dolphin
+Description: dolphin VCS plugins
+ This package contains plugins that offer integration in Dolphin with the
+ following version control systems:
+ .
+  * Bzr
+  * Git
+  * Mercurial
+  * Subversion
+ .
+ This package is part of the KDE Software Development Kit module.
