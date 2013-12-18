@@ -1,8 +1,8 @@
-dolphin-plugins (4:4.12.0-0ubuntu1) UNRELEASED; urgency=low
+dolphin-plugins (4:4.12.0-0ubuntu1) trusty; urgency=low
 
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 12 Dec 2013 15:46:19 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 16:21:44 +0000
 
 dolphin-plugins (4:4.11.97-0ubuntu1) trusty; urgency=low
 
