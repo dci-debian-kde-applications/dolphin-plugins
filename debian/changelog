@@ -1,6 +1,10 @@
 dolphin-plugins (4:4.12.90-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream beta release
+
+  [ Philip Muškovac ]
+  * Add fileviewdropboxplugin to install file
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Mar 2014 23:39:15 +0000
 
