@@ -1,4 +1,4 @@
-dolphin-plugins (4:4.12.90-0ubuntu1) UNRELEASED; urgency=medium
+dolphin-plugins (4:4.12.90-0ubuntu1) trusty; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream beta release
@@ -6,7 +6,7 @@ dolphin-plugins (4:4.12.90-0ubuntu1) UNRELEASED; urgency=medium
   [ Philip Muškovac ]
   * Add fileviewdropboxplugin to install file
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Mar 2014 23:39:15 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:33:02 +0000
 
 dolphin-plugins (4:4.12.3-0ubuntu1) trusty; urgency=medium
 
