@@ -1,3 +1,11 @@
+dolphin-plugins (4:4.12.97-0ubuntu2) trusty; urgency=medium
+
+  * Batch import fixes between 4.12.97 and current git KDE/4.13 in
+    debian/patches/upstream_git/ 
+    + KDE Bug: #332481
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Wed, 09 Apr 2014 16:17:47 +0200
+
 dolphin-plugins (4:4.12.97-0ubuntu1) trusty; urgency=medium
 
   * New upstream release candidate
