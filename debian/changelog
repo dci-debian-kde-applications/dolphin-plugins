@@ -1,6 +1,7 @@
 dolphin-plugins (4:4.13.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 22 May 2014 08:56:07 +0200
 
