@@ -1,13 +1,22 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: dolphin-plugins
+Upstream-Contact: Jeremy Paul Whiting <jpwhiting@kde.org>
+                  Michael Pyne <mpyne@kde.org>
+                  Sebastian Doerner <sebastian@sebastian-doerner.de>
 Source: http://www.kde.org/download/
 
 Files: *
-Copyright: 2009-2011, Peter Penz <peter.penz@gmx.at>
+Copyright: 2011, Canonical Ltd.
            2010, Johannes Steffen <johannes.steffen@st.ovgu.de>
+           2009-2011, Peter Penz <peter.penz19@gmail.com>
            2010, Sebastian Doerner <sebastian@sebastian-doerner.de>
-           2011, Canonical Ltd. by Jonathan Riddell <jriddell@ubuntu.com>
            2011, Vishesh Yadav <vishesh3y@gmail.com>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -16,7 +25,7 @@ License: GPL-2+
  .
  This package is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License

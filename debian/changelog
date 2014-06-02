@@ -1,3 +1,16 @@
+dolphin-plugins (4:4.13.1-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Merge with Debian, no remaining changes
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 02 Jun 2014 15:28:10 +0200
+
+dolphin-plugins (4:4.13.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 May 2014 13:34:38 +0200
+
 dolphin-plugins (4:4.13.0-0ubuntu1) trusty; urgency=medium
 
   * New upstream KDE Software Compilation release
@@ -34,11 +47,25 @@ dolphin-plugins (4:4.12.90-0ubuntu1) trusty; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:33:02 +0000
 
+dolphin-plugins (4:4.12.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:24:09 +0200
+
 dolphin-plugins (4:4.12.3-0ubuntu1) trusty; urgency=medium
 
   * New upstream bugfix release
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 20:25:29 +0100
+
+dolphin-plugins (4:4.12.2-1) experimental; urgency=medium
+
+  * Bump Standards-Version to 3.9.5, no changes needed.
+  * New upstream release.
+  * Bump kde-sc-dev-latest build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:06 +0100
 
 dolphin-plugins (4:4.12.2-0ubuntu1) trusty; urgency=medium
 
@@ -75,6 +102,19 @@ dolphin-plugins (4:4.11.80-0ubuntu1) trusty; urgency=low
   * New upstream beta release
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:25:11 +0100
+
+dolphin-plugins (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Nov 2013 14:25:40 +0100
+
+dolphin-plugins (4:4.11.2-1) experimental; urgency=low
+
+  * First release of kdesdk after being split by upstream.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Oct 2013 10:59:29 +0200
 
 dolphin-plugins (4:4.11.2-0ubuntu1) saucy; urgency=low
 
@@ -123,3 +163,4 @@ dolphin-plugins (4:4.10.80-0ubuntu1) saucy; urgency=low
   * Initial package, split from dolphin-plugins
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 02:40:41 +0100
+

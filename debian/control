@@ -2,18 +2,27 @@ Source: dolphin-plugins
 Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.13.0), libkonq5-dev (>= 4:4.13.0)
-Standards-Version: 3.9.4
-Homepage: http://www.kde.org
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/dolphin-plugins
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/dolphin-plugins
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <kiagiadakis.george@gmail.com>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.12),
+               kdelibs5-dev (>= 4:4.11),
+               libkonq5-dev,
+               pkg-kde-tools (>= 0.12)
+Standards-Version: 3.9.5
+Homepage: http://www.kde.org/
+X-Debian-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/dolphin-plugins.git
+X-Debian-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/dolphin-plugins.git
 
 Package: kdesdk-dolphin-plugins
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}, ${misc:Depends}, dolphin
+Depends: dolphin, ${misc:Depends}, ${shlibs:Depends}
 Replaces: dolphin (<< 4:4.5.0)
 Enhances: dolphin
 Description: dolphin VCS plugins
@@ -26,15 +35,3 @@ Description: dolphin VCS plugins
   * Subversion
  .
  This package is part of the KDE Software Development Kit module.
-
-Package: kdesdk-dolphin-plugins-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: ${misc:Depends}, kde-runtime-dbg, kate-dbg, kdesdk-dolphin-plugins (= ${binary:Version})
-Replaces: kdeutils-dbg (<< 4:4.6), kdesdk-dbg
-Breaks: kdeutils-dbg (<< 4:4.6), kdesdk-dbg
-Description: debugging symbols for the KDE Software Development Kit module
- This package contains debugging files used to investigate problems with
- binaries included in the KDE Software Development Kit module.
-
