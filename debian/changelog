@@ -5,6 +5,83 @@ dolphin-plugins (4:14.12.3-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:39:28 +0100
 
+dolphin-plugins (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:17:49 -0700
+
+dolphin-plugins (4:14.12.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:12:14 -0800
+
+dolphin-plugins (4:14.12.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Remove kdelibs5-dev depend version as there was not a new release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 16:54:54 +0100
+
+dolphin-plugins (4:14.11.97-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release candidate
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 02 Dec 2014 09:59:19 -0800
+
+dolphin-plugins (4:14.11.95-0ubuntu2) vivid; urgency=medium
+
+  * Fix Watch file applications locations
+  * Fix VCS for new kde-applications location
+  * Remove X-Ubuntu entries no longer applicable from control file.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 24 Nov 2014 08:33:41 -0800
+
+dolphin-plugins (4:14.11.95-0ubuntu1) vivid; urgency=medium
+
+  * Initial release for KDE applications 14.12 series
+   - Change maintainer to Debian/Kubuntu
+  * Debian merge, no remaining changes.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 22 Nov 2014 08:18:34 +0000
+
+dolphin-plugins (4:4.14.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 03:44:39 -0700
+
+dolphin-plugins (4:4.14.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 16:24:02 +0200
+
+dolphin-plugins (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 12:28:56 +0200
+
+dolphin-plugins (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release RC
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 01 Aug 2014 16:08:22 +0200
+
+dolphin-plugins (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 30 Jul 2014 17:22:36 +0200
+
+dolphin-plugins (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 24 Jul 2014 17:22:58 +0200
+
 dolphin-plugins (4:4.13.3-1) unstable; urgency=medium
 
   * New upstream release.
@@ -180,3 +257,4 @@ dolphin-plugins (4:4.10.80-0ubuntu1) saucy; urgency=low
   * Initial package, split from dolphin-plugins
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 02:40:41 +0100
+
