@@ -1,3 +1,9 @@
+dolphin-plugins (4:14.12.3-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (14.12.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:39:28 +0100
+
 dolphin-plugins (4:4.13.3-1) unstable; urgency=medium
 
   * New upstream release.
