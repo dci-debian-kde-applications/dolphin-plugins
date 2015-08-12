@@ -9,20 +9,22 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
-               libkonq5-dev,
-               pkg-kde-tools (>= 0.12)
-Standards-Version: 3.9.5
+               extra-cmake-modules,
+               kio-dev,
+               libkf5i18n-dev,
+               libkf5kdelibs4support-dev,
+               libkf5xmlgui-dev,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev
+Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/dolphin-plugins.git/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/dolphin-plugins.git
 
-Package: kdesdk-dolphin-plugins
+Package: dolphin-plugins
 Architecture: any
 Section: devel
 Depends: dolphin, ${misc:Depends}, ${shlibs:Depends}
-Replaces: dolphin (<< 4:4.5.0)
 Enhances: dolphin
 Description: dolphin VCS plugins
  This package contains plugins that offer integration in Dolphin with the
@@ -34,3 +36,11 @@ Description: dolphin VCS plugins
   * Subversion
  .
  This package is part of the KDE Software Development Kit module.
+
+Package: kdesdk-dolphin-plugins
+Architecture: all
+Section: oldlibs
+Priority: extra
+Depends: dolphin-plugins
+Description: transitional dummy package for dolphin-plugins
+ Transitional package for rename to dolphin-plugins.
