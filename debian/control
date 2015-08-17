@@ -9,6 +9,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
+               dolphin,
                extra-cmake-modules,
                kio-dev,
                libkf5i18n-dev,
