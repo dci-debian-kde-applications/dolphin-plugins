@@ -1,3 +1,9 @@
+dolphin-plugins (4:15.08.0-1~) UNRELEASED; urgency=medium
+
+  * Initial Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 11:15:46 +0200
+
 dolphin-plugins (4:15.08.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
