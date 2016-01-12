@@ -5,6 +5,7 @@ dolphin-plugins (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Philip Muškovac ]
   * Merge with debian git master
+  * Build-depend on libkf5texteditor-dev
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:28:06 +0000
 

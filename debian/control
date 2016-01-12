@@ -14,6 +14,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libdolphinvcs-dev,
                libkf5i18n-dev (>= 5.0.0~),
                libkf5kdelibs4support-dev (>= 5.0.0~),
+               libkf5texteditor-dev (>= 5.0.0~),
                libkf5xmlgui-dev (>= 5.0.0~),
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.0.0~)
