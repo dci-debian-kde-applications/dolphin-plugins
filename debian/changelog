@@ -1,4 +1,4 @@
-dolphin-plugins (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+dolphin-plugins (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release
@@ -7,7 +7,7 @@ dolphin-plugins (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Merge with debian git master
   * Build-depend on libkf5texteditor-dev
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:28:06 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 10:23:28 +0100
 
 dolphin-plugins (4:15.08.2-1) unstable; urgency=medium
 
