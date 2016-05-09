@@ -1,11 +1,18 @@
-dolphin-plugins (4:16.04.0-1~1.gbpc70e9c) UNRELEASED; urgency=medium
+dolphin-plugins (4:16.04.0-1~2.gbp5b4198) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @5b41988a4c9e5181910951afc11eecad68e7a347 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @c70e9c102730d20e31a21d9db4e0ff4a7a7a8d4f **
 
   * Bump Standards-Version to 3.9.8
   * UNRELEASED
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 04:06:29 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 11:05:16 +0200
 
 dolphin-plugins (4:15.12.0-1) experimental; urgency=medium
 
