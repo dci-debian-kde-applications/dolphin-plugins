@@ -1,3 +1,11 @@
+dolphin-plugins (4:16.08.0-1~1.gbp4a6b84) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4a6b848b2f694fa9cfff8f7c25bbe8cbdd3e2bc3 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:05:11 +0200
+
 dolphin-plugins (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
