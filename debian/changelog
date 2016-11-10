@@ -1,10 +1,11 @@
-dolphin-plugins (4:16.08.0-2~1.gbp5b164c) UNRELEASED; urgency=medium
+dolphin-plugins (4:16.08.3-1~1.gbpc4ea03) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @5b164c2412cce5795749adf8c63000da8db407e0 **
+  ** SNAPSHOT build @c4ea039701ed83ed6902213cf4a9a57e6af137d6 **
 
   * Update build-deps and deps with the info from cmake
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 19 Oct 2016 13:05:31 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 22:05:17 +0100
 
 dolphin-plugins (4:16.08.0-1) unstable; urgency=medium
 
