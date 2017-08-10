@@ -28,6 +28,8 @@ Architecture: any
 Section: devel
 Depends: dolphin, ${misc:Depends}, ${shlibs:Depends}
 Enhances: dolphin
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: dolphin VCS plugins
  This package contains plugins that offer integration in Dolphin with the
  following version control systems:
