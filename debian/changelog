@@ -1,3 +1,57 @@
+dolphin-plugins (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:31:08 +0000
+
+dolphin-plugins (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:18:16 +0000
+
+dolphin-plugins (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:20:01 +0000
+
+dolphin-plugins (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:10:48 +0000
+
+dolphin-plugins (4:17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 19 Apr 2017 13:02:28 +0000
+
+dolphin-plugins (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:46:39 +0000
+
+dolphin-plugins (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 16:55:47 +0000
+
+dolphin-plugins (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:13:47 +0000
+
+dolphin-plugins (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:23:09 +0000
+
 dolphin-plugins (4:16.08.3-1) unstable; urgency=medium
 
   [ Automatic packaging ]
@@ -8,11 +62,47 @@ dolphin-plugins (4:16.08.3-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 20:50:10 +0100
 
+dolphin-plugins (4:16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:51:43 +0000
+
+dolphin-plugins (4:16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:38:14 +0000
+
+dolphin-plugins (4:16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:04:55 +0000
+
 dolphin-plugins (4:16.08.0-1) unstable; urgency=medium
 
   * New upstream release (16.08.0)
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 12:35:18 +0200
+
+dolphin-plugins (4:16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:47:09 +0000
+
+dolphin-plugins (4:16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 11:39:38 +0000
+
+dolphin-plugins (4:16.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Jul 2016 15:04:05 +0000
 
 dolphin-plugins (4:16.04.0-1) unstable; urgency=medium
 
