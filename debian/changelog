@@ -15,6 +15,7 @@ dolphin-plugins (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Switch debian/dolphin-plugins as local installation directory instead of
     debian/tmp, so there is no need to move everything using
     dolphin-plugins.install.
+  * Remove duplicated Priority field in kdesdk-dolphin-plugins.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:58:23 +0100
 

@@ -43,7 +43,6 @@ Description: dolphin VCS plugins
 Package: kdesdk-dolphin-plugins
 Architecture: all
 Section: oldlibs
-Priority: optional
 Depends: dolphin-plugins
 Description: transitional dummy package for dolphin-plugins
  Transitional package for rename to dolphin-plugins.
